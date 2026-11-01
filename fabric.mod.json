@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "chathistory",
+  "version": "${version}",
+  "name": "Chat History",
+  "description": "Klawisz K: lista graczy i historia ich czatu/komend.",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.chathistory.ChatHistoryMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
